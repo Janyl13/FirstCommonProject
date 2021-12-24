@@ -1,8 +1,7 @@
-
 from django.urls import path
 
-from .views import index
+from .views import order
 
 urlpatterns = [
-    path('', index),
+    path('', order)
 ]
